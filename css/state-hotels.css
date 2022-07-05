@@ -1,0 +1,367 @@
+*{
+list-style:none;
+text-decoration:none;
+box-sizing:border-box;
+}
+.state-hotel .state-content{
+/*background:blue;*/
+width:80%;
+margin:0 auto;
+background:transparent;
+}
+.state-hotel .state-content .column-left{
+background:yellow;
+width:19%;
+display:inline-block;
+padding:0 13px;
+background:#FFFFFF;
+}
+.state-hotel .state-content .column-left .list1{
+font-size:11px;
+    padding: 11px 0;
+	font-weight:bold;
+}
+.state-hotel .state-content .column-left .list1 span{
+    font-size: 9px;
+    margin-right: 3%;
+    float: right;
+	font-weight:bold;
+	color:#a59f9ff0;
+
+}
+.state-hotel .state-content .column-left .item1 .inp{
+    border: 1px solid #a59f9ff0;
+    border-radius:7px;
+	padding: 5px;
+	 background: #eee;
+}
+.state-hotel .state-content .column-left .inp input{
+width: 90%;
+    border: none;
+    background: transparent;
+	    vertical-align: text-top;
+		 
+}
+.state-hotel .state-content .column-left .inp input:focus{
+border:none;
+outline:none;
+}
+.state-hotel .state-content .column-left .fa-search{
+float: right;
+    vertical-align: text-top;
+	color:#a59f9ff0;
+}
+.state-hotel .state-content .column-left .item1{
+    padding: 11px 0;
+}
+.state-hotel .state-content .bottom-line{
+width:100%;
+display:inline-block;
+margin:5% 0;
+height:1px;
+background:#a59f9ff0;
+
+}
+.state-hotel .state-content .column-left .list2{
+border: none;
+padding: 0;
+font-size:12px;
+vertical-align:middle;
+    padding: 3px 0;
+}
+
+.num{
+font-weight:lighter;
+color:#a59f9ff0;
+font-size:10px;
+    margin-left: 5px;
+
+}
+
+.state-hotel .state-content .column-left .item1 .list2 input{
+vertical-align: middle;
+margin-right:3%;
+cursor:pointer;
+background:#eee;
+border:#eee;
+} 
+.state-hotel .state-content .column-left .item1 .list2 input:checked{
+background:red;
+color:white;
+}
+.state-hotel .state-content .column-left .item1 .rating-box{
+width:20%;
+display:inline-block;
+text-align:center;
+border: 1px solid #a59f9ff0;
+padding: 7px 2px;
+padding-bottom:0;
+cursor:pointer;
+}
+.ml-5{
+margin-left:-5px;
+}
+.state-hotel .state-content .column-left .item1 .rate-3{
+border-left:none;
+border-right: none;
+}
+.state-hotel .state-content .column-left .rating-box h5{
+font-size: 19px;
+    font-weight: 400;
+}
+.state-hotel .state-content .column-left .rating-box .fa-star{
+font-size: 17px;
+    padding: 7px 0;
+	color:crimson;
+}
+.state-hotel .state-content .column-left .rating-box .rate{
+font-size: 15px;
+    padding: 7px 0;
+    border-top: 1px solid #a59f9ff0;
+}
+.state-hotel .state-content .column-left .rating-box:hover{
+border-top:5px solid crimson;
+padding-top:3px;
+}
+/*-----------------------------------Right Column------------------------------------*/
+.state-hotel .state-content .column-right{
+background:pink;
+width:80%;
+display:inline-block;
+vertical-align:top;
+background:transparent;
+}
+.state-hotel .state-content .column-right .header{
+text-align:center;
+padding: 11px 0;
+}
+.state-hotel .state-content .column-right .header p{
+font-size:11px;
+padding:5px 0;
+}
+.state-hotel .state-content .column-right .header .modify-search{
+display: inline-block;
+    border: 1px solid #a59f9ff0;
+    padding: 9px 7px;
+    border-radius: 5px;
+	position: absolute;
+    margin-top: -38px;
+    margin-left: 23%;
+	background: #eee;
+}
+.state-hotel .state-content .column-right .header .modify-search i{
+    display: inline-block;
+	color:#a59f9ff0;
+}
+.state-hotel .state-content .column-right .header .modify-search h5{
+display: inline-block;
+color:#a59f9ff0;
+}
+.state-hotel .state-content .column-right .place-content .place-img{
+display:inline-block;
+position:relative;
+}
+.state-hotel .state-content .column-right .place-content{  
+ background: white;
+    border-radius: 3px;
+	margin: 11px 11px 21px 11px;
+	}
+.state-hotel .state-content .column-right .place-content:hover{
+	box-shadow: 3px 2px 5px 1px #aaa;
+}
+.state-hotel .state-content .column-right .place-content .place-details{
+display:inline-block;
+vertical-align: top;
+padding: 11px 0 0 11px;
+}
+.state-hotel .state-content .column-right .place-content .place-details h3{
+padding-bottom: 11px;
+    font-size: 25px;
+	font-weight: 500;
+	color:#000000;
+}
+.icon{width:21px;height:18px;}
+.state-hotel .state-content .column-right .place-content .place-details .free .free-icon{
+display:inline-block;
+font-size: 15px;
+    font-weight: 200;
+	margin-right: 11px;
+}
+.state-hotel .state-content .column-right .place-content .place-details .free .free-icon .icon{
+margin-right:3px;
+}
+.state-hotel .state-content .column-right .place-content .place-details .star{
+display:inline-block;
+padding:0 0 11px 0;
+}
+.state-hotel .state-content .column-right .place-content .place-details h5{
+    padding-top: 11px;
+	    font-weight: 500;
+}
+.state-hotel .state-content .column-right .place-content .place-details .location-name{
+font-size:13px;
+margin-left:3px;
+color: blue;
+}
+.state-hotel .state-content .column-right .place-content .place-details .fa-map-marker{
+margin-left:5px;
+}
+.state-hotel .state-content .column-right .place-content .place-details .passes{
+    padding: 15px 0;
+    margin-top: 22px;
+    padding-top: 0;
+}
+.state-hotel .state-content .column-right .place-content .place-details p{
+    padding: 7px 0;
+	font-size: 12px;
+}
+.state-hotel .state-content .column-right .place-content .price{
+display:inline-block;
+float:right;
+text-align:right; 
+padding: 11px 11px 0 0;
+}
+.rating{
+font-size: 13px;
+    margin-bottom: 29%;
+	font-weight: 600;
+    color: #008000c2;
+}
+
+.pricing .previous-price{
+font-size:12px;
+text-decoration:line-through;
+    margin-right: 5px;
+	    color: grey;
+    font-weight: 500;
+}
+.pricing .previous-price i{
+text-decoration:line-through;
+    vertical-align: middle;
+    margin-right: -3px;
+}
+.actual-price{
+font-size:23px;
+}
+
+.days{
+font-size: 14px;
+    font-weight: 200;
+	padding: 11px 0;
+}
+.choose-btn{
+    display: inline-block;
+    background: crimson;
+    padding: 11px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+}
+.fa-map-marker{
+    color: grey;
+}
+.fa-star{
+color:crimson;
+}
+.state-hotel .state-content .column-right .place-content .place-img .featured{
+/*display:inline-block;
+padding:11px;
+color:white;
+background:#00CC33;
+text-transform:uppercase;
+    box-shadow: 1px 2px 3px 1px #575555f0;
+    position: absolute;
+    left: -3%;
+    top: 5%;
+	z-index:3;*/
+	
+	display: inline-block;
+    padding: 9px 21px;
+    color: white;
+    background: #00CC33;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 3px 1px #575555f0;
+    position: absolute;
+    left: -3%;
+    top: 5%;
+    z-index: 3;
+}
+.state-hotel .state-content .column-right .place-content .place-img .thing-img{
+position:relative;
+z-index:2;
+}
+.small-box{
+display:inline-block;
+width:16px;
+height:16px;
+background:#00CC33;
+/*background:red;*/
+    position: absolute;
+    left: -2%;
+    top: 16%;
+    transform: rotate(46deg);
+    z-index: 1;
+}
+
+
+.state-hotel .state-content .column-right .place-content .price .rating .ratingspan{
+    font-size: 11px;
+    font-weight: 300;
+    color: #605d5d;
+}
+.state-hotel .state-content .column-right .place-content .price .pricing .actual-price{
+color:#000000;
+}
+.state-hotel .state-content .column-right .place-content .price .pricing .actual-price i{
+margin-right: -6px;
+vertical-align: middle;
+}
+
+.state-hotel .state-content .column-right .place-content .place-details p .save-amount{
+color: green;
+}
+.state-hotel .state-content .column-right .place-content .place-details p .save-amount i{
+margin-right:-3px;
+    vertical-align: bottom;
+}
+.state-hotel .state-content .column-right .place-content .place-details p .earn{
+font-weight: 600;
+}
+.state-hotel .state-content .column-right .place-content .place-details p i{
+margin-right:-3px;
+    color: grey;}
+
+.state-hotel .state-content .column-right .place-content .place-details p .earn{
+margin-right:5px;
+    vertical-align: bottom;
+}
+.state-hotel .state-content .column-right .place-content .place-details p .ecash{
+color: orange;
+}
+.state-hotel .state-content .column-right .place-content .place-details p .earn-cash{
+color:grey;
+}
+.state-hotel .state-content .column-right .place-content .place-details p .vline{
+color:lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

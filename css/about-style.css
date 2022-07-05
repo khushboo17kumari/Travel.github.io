@@ -1,0 +1,262 @@
+/* CSS Document */
+body{
+background-color: rgb(238, 238, 238);
+}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.bg-shade{
+background-image:url(../images/slider-pattern.png);
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: 100% 101px;
+}
+.outer{
+position:unset;
+}
+nav{
+position:unset;
+top:unset;
+background-color: rgba(1, 78, 108, 1);
+}
+.nav-ul li a {
+font-size: 16px;
+}
+.nav-content{
+padding:0;
+}
+.heading{
+max-width: 1170px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 33px 0;
+    color: white;
+}
+.heading h1{
+padding: 3% 0;
+    margin-bottom: 9%;
+    font-size: 87px;
+    font-family: cursive;
+}
+/*.......................................about video section....................................*/
+.about .container{
+width:100%;
+padding:0;
+max-width:unset;
+}
+video{
+width:100%;
+object-fit:cover;
+}
+.about-video{
+position: relative;
+    text-align: center;
+
+}
+.about-video h3
+{
+position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 9% 0;
+    color: white;
+    font-size: 91px;
+    font-family: cursive;
+	}
+
+/*.......................................about video section ends....................................*/
+/*.......................................about content section starts....................................*/
+.about-content{
+position:relative;
+}
+.about-content-container{
+background:white;
+/*text-align:center;*/
+width:80%;
+margin:0 auto;
+padding:5% 6%;
+border-radius:7px;
+margin-top: -100px;
+}
+.about-content-container h3{
+font-size:51px;
+padding:11px 0;
+font-family:cursive;
+}
+.about-content-container p{
+font-size:16px;
+line-height:21px;
+padding:11px 0;
+}
+/*.......................................about content section ends....................................*/
+
+.about-numbers{
+/*background:pink;*/
+
+}
+.about-content{
+background-image:url(../images/slider-pattern.png);
+    background-repeat: no-repeat;
+    background-size: 100% 22%;
+background-repeat:no-repeat;
+}
+.about-numbers .numbers-content{
+/*background:red;*/
+margin:0 auto;
+width:80%;
+padding:5% 0;
+
+
+}
+.about-numbers .numbers-content .numbers-box{
+background-color:rgba(1, 78, 108, 1);
+padding:1% 1%;
+width:23.2%;
+text-align:center;
+border-bottom-left-radius: 27px;
+border-top-right-radius: 27px;
+transition:0.3s ease-in;
+cursor:pointer;
+display:inline-block;
+margin-right:2%;
+color:white;
+}
+#mr-none{
+margin-right:0;
+}
+.about-numbers .numbers-content .numbers-box h4{
+font-size:21px;
+padding:1% 0;
+}
+.about-numbers .numbers-content .numbers-box p{
+font-size:15px;
+padding:2% 2%;
+}
+/*.about-numbers .numbers-content .numbers-box:hover{
+background:rgba(1, 78, 108, 1);
+color:white;
+}*/
+.about-numbers .numbers-content .numbers-box:hover{
+transform:scale(1.1);
+box-shadow: 1px 2px 3px #aaa;
+}
+.about-numbers .numbers-content .numbers-box:hover h4{
+transform:scale(1.5);
+color:;
+/*transition:ease-in;*/
+transition-delay:0.5s;
+
+}
+.about-numbers .numbers-content .numbers-box img{
+margin-bottom: 2%;
+}
+
+.about-more-container{
+
+}
+.about-more-container .about-more-content{
+width:80%;
+margin:0 auto;
+background:pink;
+}
+.row-1{
+display:inline-block;
+}
+.about-partners{
+display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.about-box-container{
+display:flex;
+justify-content:space-between;
+padding: 4% 0;
+}
+.about-box{
+display:inline-block;
+
+}
+.box-icon{
+    display: inline-block;
+   background-color: rgba(1, 78, 108, 1);
+    margin-right: 5%;
+}
+.box-icon img{
+	width:80px;
+height:80px;
+}
+.box-text{
+display: inline-block;
+    vertical-align: middle;
+	width:50%;
+	padding: 0 0px 0 3px;
+}
+.box-text h3{
+    padding: 5px 0px;
+	font-size:16px;
+}
+.box-text h5{
+    padding: 5px 0;
+    margin-bottom: 0;
+	font-size:14px;
+	font-weight:100;
+	color:rgba(1, 78, 108, 1);
+}
+
+@media only screen and (max-width: 620px){
+.heading{
+ padding:13px 0;
+ }
+.heading h1 {
+    padding: 3% 0;
+    margin-bottom: 10%;
+    font-size: 37px;
+	}
+	.bg-shade {
+   background-size: 100%;
+	}
+	.about-content-container h3 {
+    font-size: 35px;
+  }
+  .about-content-container p {
+    font-size: 13px;
+	}
+	.about-numbers .numbers-content .numbers-box {
+    margin-bottom:18px;
+    width: 100%;
+	padding:3% 1%;
+	}
+	.about-partners {
+    flex-direction: column;
+    align-items: center;
+	}
+	.about-box-container {
+   
+    padding: 4% 0;
+    flex-direction: column;
+	}
+}
+/*.partners{
+background-image:url(../images/mount111.jpg);
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+

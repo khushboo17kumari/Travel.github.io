@@ -1,0 +1,455 @@
+@media only screen and (max-width: 620px) {
+.outer{display:none;}
+.nav-mid{display:none;}
+.fa-bars{display:block;}
+.btn-nav{display:none;}
+.nav-content{padding:0;}
+.nav-left a img{
+height:51px;
+width:150px;
+}
+.carousel-caption{
+position: absolute !important;
+    right: 11%;
+    bottom: 20px;
+    
+    z-index: 10 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+.carousel-caption h5{
+font-size: 15px !important;
+margin-bottom: 2px;
+}
+.carousel-caption p{
+font-size: 4px;
+    padding: 0 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 13px;
+    height: 13px;
+	}
+.box-content{
+margin-top: -21px;
+padding: 40px 88px;
+}
+/*................................input section................................*/
+.box{
+background-size:100%;
+}
+.input-row .row1-ul .row1 input{
+width:100%;
+margin-bottom:11px;
+}
+.row1 {
+    display: block;
+	margin-right:0;
+}
+.btn3{
+display: block;
+    text-align: center;
+	    margin-top: 3%;
+		margin-bottom:11px;
+}
+.box-content{
+padding:40px 40px;
+}
+/*.....................................input section ends.................................*/
+/*.................................popular destination section starts........................*/
+.dest-content {
+padding:51px 0;
+}
+.dest-content h5{
+font-size: 15px;
+    margin-bottom: 11px;
+}
+.dest-content h1 {
+margin-bottom: 11px;
+font-size: 25px;
+}
+.inner-box {
+    display: block;
+    margin-bottom: 5%;
+	margin-right:1px;
+}
+.inner-box img{
+    width: 100%;
+}
+.dest-content .dest-btn {
+margin-top:21px;
+}
+/*.................................popular destination section ends........................*/
+/*.........................................popular package section starts.....................................................*/
+.package-content h5 {
+    font-size: 15px;
+    margin-bottom: 11px;
+}
+.package-content h1 {
+margin-bottom: 11px;
+font-size: 30px;
+}
+.package-content h4 {
+    line-height: 22px;
+    font-size: 15px;
+   }
+   .package-card {
+    width: 100%;
+	margin-right: 0;
+    margin-bottom: 5%;
+	}
+	.line {
+    width: 21%;
+	}
+	
+	.package-card .menu-content .text {
+    font-size: 14px;
+	}
+	.package-card .menu-content .title {
+    font-size: 23px;
+	}
+	.menu-content {
+     padding: 25px 16px 25px 16px;
+	}
+	.package-btn{
+     margin-top:11px;
+	}
+	.menu-box .menu1 h6 {
+    font-size: 12px;
+	}
+	.m1, .m2 {
+    margin-right:0;
+    padding-right: 7px;
+	}
+/*.........................................popular package section ends.....................................................*/
+/*.........................................seven section starts.....................................................*/
+.seven-section {
+    padding: 54px 0;
+    margin: 32px 0;
+	background-size: unset;
+	}
+.seven-left {
+    display: block;
+	}
+.seven-right {
+    display: block;
+    width: 100%;
+    padding: 11px;
+	}
+.seven-header h5{
+ font-size: 15px;
+    margin-bottom: 11px;
+}
+.seven-header  h1 {
+margin-bottom: 11px;
+font-size: 30px;
+}
+.seven-header h4 {
+    line-height: 22px;
+    font-size: 15px;
+   }
+.seven-box {
+    padding: 31px 0;
+}
+.box1 {
+     padding-bottom:0; 
+     padding-right:0; 
+}
+.seven-box1 {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #fff;
+     padding: 11px;
+	 margin-bottom:11px;
+	}
+.seven-box1 .number{
+line-height:unset;
+}
+.seven-box1 .number h5 {
+    font-size: 31px;
+	}
+.box2 {
+     padding-left:; 
+     margin-left:0; 
+     
+     padding-bottom: 0; 
+}
+.box3 {
+     border-bottom:; 
+}
+.box4 {
+     padding-left: ; 
+     border: ; 
+}
+.contact-box{
+padding: 18px 9px;
+}
+.contact-text {
+   line-height:unset; 
+   padding-left: 0; 
+ }
+ .contact-box .contact-text h5 {
+    font-size: 13px;
+	}
+.contact-box .contact-text h3 {
+    font-size: 19px;
+}
+.fa-volume-control-phone {
+    font-size: 19px;
+}
+/*.........................................seven sections ends.....................................................*/
+<!-- ----------------------------------------Eight section starts----------------------------------------------- -->
+
+.eight-content h5{
+ font-size: 15px;
+    margin-bottom: 11px;
+}
+.eight-content  h1 {
+margin-bottom: 11px;
+font-size: 30px;
+}
+.eight-content h4 {
+    line-height: 22px;
+    font-size: 15px;
+   }
+   .eight-card {
+    padding: 11px 12px;
+    margin-right: 0px;
+    margin-bottom: 11px;
+	}
+<!-- ----------------------------------------Eight section ends----------------------------------------------- -->
+<!-- ----------------------------------------Nine section starts----------------------------------------------- -->
+.nine-content h5{
+ font-size: 15px;
+    margin-bottom: 11px;
+}
+.nine-content  h1 {
+margin-bottom: 11px;
+font-size: 30px;
+}
+.nine-content h4 {
+    line-height: 22px;
+    font-size: 15px;
+   }
+.nine-content {
+    padding: 21px 0 21px 0;
+	}
+.nine-box1, .nine-box2 {
+     margin-right:0; 
+}
+.img-container-nine {
+    width: 100%;
+    margin-bottom: 16%;
+	}
+.nine-card {
+    padding: 19px 18px;
+	}
+.nine-content .nine-card h5 {
+    font-size: 21px;
+}
+<!-- ----------------------------------------Nine section ends----------------------------------------------- -->
+<!-- ----------------------------------------Ten section starts----------------------------------------------- -->
+.ten-section .ten-content .ten-header h5{
+font-weight: bold;
+font-size: 15px;
+    margin-bottom: 11px;
+    color: #f74735;
+   
+}
+.ten-content .ten-header h1 {
+margin-bottom: 11px;
+font-size: 30px;
+}
+.ten-content .ten-header h4 {
+    line-height: 22px;
+    font-size: 15px;
+   }
+.ten-content {
+    padding: 21px 0 21px 0;
+	}
+.ten-header {
+    width: 100%;
+    margin-bottom: 11px;
+    margin-right:0;
+	}
+.ten-left-img {
+    margin-top: 11px;
+	}
+.ten-right {
+    width: 100%;
+	}
+.right-img1 {
+    display: block;
+    float:none; 
+    margin-right:0;
+}
+.right-img1 img{
+width:100%;
+    margin-bottom: 11px;
+}
+.right-img2 img{
+width:100%;
+ /*   margin-bottom: 11px;*/
+}
+<!-- ----------------------------------------Ten section ends----------------------------------------------- -->
+<!-- ----------------------------------------Eleven section starts----------------------------------------------- -->
+.eleven-content {
+    padding: 35px 0 35px 0;
+	}
+.eleven-content h5{
+ font-size: 15px !important;
+    margin-bottom: 11px !important;
+}
+.eleven-content  h1 {
+margin-bottom: 11px !important;
+font-size: 30px !important;
+}
+.eleven-content h4 {
+    line-height: 22px !important;
+    font-size: 15px !important;
+	width: 100% !important;
+     margin:0 !important; 
+   
+   }
+.input-box {
+    width: 100%;
+    margin: 19px 0;
+}
+.eleven-input {
+    width: 100%;
+}
+.eleven-btn {
+    width: 100%;
+}
+<!-- ----------------------------------------Eleven section ends----------------------------------------------- -->
+<!-- ----------------------------------------Twelve section starts----------------------------------------------- -->
+.twelve-content h5{
+ font-size: 15px !important;
+    margin-bottom: 11px !important;
+}
+.twelve-content  h1 {
+margin-bottom: 11px ;
+font-size: 30px ;
+}
+.twelve-content h4 {
+    line-height: 22px ;
+    font-size: 15px ;
+	width: 100% ;
+     margin:0 ; 
+}
+.twelve-card {
+    width: 100%;
+    margin-bottom:21px;
+}
+.twelve-card1 {
+     margin-right:0; 
+}
+.twelve-content .twelve-card .twelve-card-text p {
+    font-size: 23px;
+    line-height: 33px;
+    margin-bottom: 9px;
+}
+.twelve-content{
+padding-bottom:25px;
+}
+.author-name{
+font-size:13px;
+}
+<!-- ----------------------------------------Tweleve section ends----------------------------------------------- -->
+<!-- ----------------------------------------Thirteen section starts----------------------------------------------- -->
+.slider-area{
+display:none !important;
+}
+.shadow-13{display:none;}
+
+<!-- ----------------------------------------Thirteen section ends----------------------------------------------- -->
+<!-- ----------------------------------------Fourteen section starts----------------------------------------------- -->
+.fourteen-section {
+  padding: 37px 0;
+}
+.fourteen-img {
+  margin-top:-68px;
+  width:100%;
+  }
+  .column-14 {
+    padding-left:0;
+    width: 100%;
+    margin-bottom: 11px;
+	}
+.col-1-14, .col-2-14 {
+    border-right: none;
+}
+.col-1-14{
+margin-top:11px;
+}
+.fourteen-line {
+    margin: 27px 0 21px 0px;
+}
+.fourteen-text {
+    display: block;
+    font-size: 19px;
+    width: 100%;
+	padding-left:0;
+	}
+.btn-14 {
+    display: block;
+    margin-top: 15px;
+}
+.column {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 0;
+	}
+.logo {
+  margin: 0;
+}
+<!-- ----------------------------------------Fourteen section ends----------------------------------------------- -->
+
+/*<!-- ------------------------------Gallerry section starts------------------------------------- -->
+ .heading{
+ padding:13px 0;
+ }
+.heading h1 {
+    padding: 3% 0;
+    margin-bottom: 10%;
+    font-size: 37px;
+	}
+.gallery-row1 {
+    display: inline-block;
+    width: 100%;
+     margin-right:0;
+	}
+<!-- ------------------------------Gallerry section ends------------------------------------- -->
+*/
+
+}
+
+@media only screen and (max-width: 375px){
+	.eight-card {
+    display:block;
+    margin-right: 0px;
+    margin-bottom: 11px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
